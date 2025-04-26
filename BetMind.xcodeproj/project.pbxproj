@@ -1,0 +1,645 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4894FB0E2DBC141B006FB0D9 /* BetMindApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4894FB0D2DBC141B006FB0D9 /* BetMindApp.swift */; };
+		4894FB122DBC141C006FB0D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4894FB112DBC141C006FB0D9 /* Assets.xcassets */; };
+		4894FB152DBC141C006FB0D9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4894FB142DBC141C006FB0D9 /* Preview Assets.xcassets */; };
+		4894FB312DBC169F006FB0D9 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4894FB302DBC169F006FB0D9 /* MainTabView.swift */; };
+		4894FB332DBC16F3006FB0D9 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4894FB322DBC16F3006FB0D9 /* OnboardingView.swift */; };
+		4894FB352DBC1881006FB0D9 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4894FB342DBC1881006FB0D9 /* HomeView.swift */; };
+		4894FB392DBC1958006FB0D9 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4894FB382DBC1958006FB0D9 /* AccountView.swift */; };
+		4894FB3B2DBC1C06006FB0D9 /* OnboardingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4894FB3A2DBC1C06006FB0D9 /* OnboardingPage.swift */; };
+		4894FB3D2DBC1C51006FB0D9 /* OnboardingPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4894FB3C2DBC1C51006FB0D9 /* OnboardingPageView.swift */; };
+		4894FB402DBC276D006FB0D9 /* GameType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4894FB3F2DBC276D006FB0D9 /* GameType.swift */; };
+		4894FB442DBC2B3C006FB0D9 /* BaccaratView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4894FB432DBC2B3C006FB0D9 /* BaccaratView.swift */; };
+		4894FB482DBC2B6B006FB0D9 /* BlackJackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4894FB472DBC2B6B006FB0D9 /* BlackJackView.swift */; };
+		4894FB4D2DBC2B9F006FB0D9 /* RouletteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4894FB4C2DBC2B9F006FB0D9 /* RouletteView.swift */; };
+		4894FB512DBC2BC9006FB0D9 /* SportsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4894FB502DBC2BC9006FB0D9 /* SportsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4894FB0A2DBC141B006FB0D9 /* BetMind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BetMind.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4894FB0D2DBC141B006FB0D9 /* BetMindApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetMindApp.swift; sourceTree = "<group>"; };
+		4894FB112DBC141C006FB0D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4894FB142DBC141C006FB0D9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4894FB302DBC169F006FB0D9 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		4894FB322DBC16F3006FB0D9 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		4894FB342DBC1881006FB0D9 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		4894FB382DBC1958006FB0D9 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		4894FB3A2DBC1C06006FB0D9 /* OnboardingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPage.swift; sourceTree = "<group>"; };
+		4894FB3C2DBC1C51006FB0D9 /* OnboardingPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPageView.swift; sourceTree = "<group>"; };
+		4894FB3F2DBC276D006FB0D9 /* GameType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameType.swift; sourceTree = "<group>"; };
+		4894FB432DBC2B3C006FB0D9 /* BaccaratView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaccaratView.swift; sourceTree = "<group>"; };
+		4894FB472DBC2B6B006FB0D9 /* BlackJackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackJackView.swift; sourceTree = "<group>"; };
+		4894FB4C2DBC2B9F006FB0D9 /* RouletteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouletteView.swift; sourceTree = "<group>"; };
+		4894FB502DBC2BC9006FB0D9 /* SportsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4894FB072DBC141B006FB0D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4894FB012DBC141B006FB0D9 = {
+			isa = PBXGroup;
+			children = (
+				4894FB0C2DBC141B006FB0D9 /* BetMind */,
+				4894FB0B2DBC141B006FB0D9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4894FB0B2DBC141B006FB0D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4894FB0A2DBC141B006FB0D9 /* BetMind.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4894FB0C2DBC141B006FB0D9 /* BetMind */ = {
+			isa = PBXGroup;
+			children = (
+				4894FB2C2DBC1558006FB0D9 /* Utils */,
+				4894FB2A2DBC153B006FB0D9 /* Resources */,
+				4894FB212DBC14FD006FB0D9 /* Features */,
+				4894FB1C2DBC14D0006FB0D9 /* Core */,
+				4894FB1B2DBC144D006FB0D9 /* App */,
+				4894FB132DBC141C006FB0D9 /* Preview Content */,
+			);
+			path = BetMind;
+			sourceTree = "<group>";
+		};
+		4894FB132DBC141C006FB0D9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4894FB142DBC141C006FB0D9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4894FB1B2DBC144D006FB0D9 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				4894FB0D2DBC141B006FB0D9 /* BetMindApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		4894FB1C2DBC14D0006FB0D9 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				4894FB202DBC14EB006FB0D9 /* Helpers */,
+				4894FB1F2DBC14E6006FB0D9 /* Services */,
+				4894FB1E2DBC14DE006FB0D9 /* UseCases */,
+				4894FB1D2DBC14D9006FB0D9 /* Models */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		4894FB1D2DBC14D9006FB0D9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4894FB1E2DBC14DE006FB0D9 /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		4894FB1F2DBC14E6006FB0D9 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		4894FB202DBC14EB006FB0D9 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		4894FB212DBC14FD006FB0D9 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				4894FB362DBC1945006FB0D9 /* Account */,
+				4894FB2E2DBC1681006FB0D9 /* MainTab */,
+				4894FB292DBC1530006FB0D9 /* Settings */,
+				4894FB282DBC1529006FB0D9 /* GameSessions */,
+				4894FB262DBC151C006FB0D9 /* Home */,
+				4894FB222DBC1503006FB0D9 /* Onboarding */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		4894FB222DBC1503006FB0D9 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				4894FB252DBC1515006FB0D9 /* Models */,
+				4894FB242DBC150F006FB0D9 /* ViewModels */,
+				4894FB232DBC150A006FB0D9 /* Views */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		4894FB232DBC150A006FB0D9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4894FB322DBC16F3006FB0D9 /* OnboardingView.swift */,
+				4894FB3C2DBC1C51006FB0D9 /* OnboardingPageView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4894FB242DBC150F006FB0D9 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		4894FB252DBC1515006FB0D9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4894FB3A2DBC1C06006FB0D9 /* OnboardingPage.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4894FB262DBC151C006FB0D9 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				4894FB3E2DBC2760006FB0D9 /* Models */,
+				4894FB272DBC1522006FB0D9 /* Vjews */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		4894FB272DBC1522006FB0D9 /* Vjews */ = {
+			isa = PBXGroup;
+			children = (
+				4894FB342DBC1881006FB0D9 /* HomeView.swift */,
+			);
+			path = Vjews;
+			sourceTree = "<group>";
+		};
+		4894FB282DBC1529006FB0D9 /* GameSessions */ = {
+			isa = PBXGroup;
+			children = (
+				4894FB4E2DBC2BB1006FB0D9 /* Sports */,
+				4894FB492DBC2B7E006FB0D9 /* Roulette */,
+				4894FB452DBC2B57006FB0D9 /* BlackJack */,
+				4894FB412DBC2B23006FB0D9 /* Baccarat */,
+			);
+			path = GameSessions;
+			sourceTree = "<group>";
+		};
+		4894FB292DBC1530006FB0D9 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		4894FB2A2DBC153B006FB0D9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4894FB2B2DBC154F006FB0D9 /* Localization */,
+				4894FB112DBC141C006FB0D9 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4894FB2B2DBC154F006FB0D9 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+		4894FB2C2DBC1558006FB0D9 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				4894FB2D2DBC155D006FB0D9 /* Extensions */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		4894FB2D2DBC155D006FB0D9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		4894FB2E2DBC1681006FB0D9 /* MainTab */ = {
+			isa = PBXGroup;
+			children = (
+				4894FB2F2DBC1689006FB0D9 /* Views */,
+			);
+			path = MainTab;
+			sourceTree = "<group>";
+		};
+		4894FB2F2DBC1689006FB0D9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4894FB302DBC169F006FB0D9 /* MainTabView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4894FB362DBC1945006FB0D9 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				4894FB372DBC194B006FB0D9 /* Views */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		4894FB372DBC194B006FB0D9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4894FB382DBC1958006FB0D9 /* AccountView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4894FB3E2DBC2760006FB0D9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4894FB3F2DBC276D006FB0D9 /* GameType.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4894FB412DBC2B23006FB0D9 /* Baccarat */ = {
+			isa = PBXGroup;
+			children = (
+				4894FB422DBC2B2B006FB0D9 /* Views */,
+			);
+			path = Baccarat;
+			sourceTree = "<group>";
+		};
+		4894FB422DBC2B2B006FB0D9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4894FB432DBC2B3C006FB0D9 /* BaccaratView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4894FB452DBC2B57006FB0D9 /* BlackJack */ = {
+			isa = PBXGroup;
+			children = (
+				4894FB462DBC2B5E006FB0D9 /* Views */,
+			);
+			path = BlackJack;
+			sourceTree = "<group>";
+		};
+		4894FB462DBC2B5E006FB0D9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4894FB472DBC2B6B006FB0D9 /* BlackJackView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4894FB492DBC2B7E006FB0D9 /* Roulette */ = {
+			isa = PBXGroup;
+			children = (
+				4894FB4A2DBC2B8C006FB0D9 /* Views */,
+			);
+			path = Roulette;
+			sourceTree = "<group>";
+		};
+		4894FB4A2DBC2B8C006FB0D9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4894FB4C2DBC2B9F006FB0D9 /* RouletteView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4894FB4E2DBC2BB1006FB0D9 /* Sports */ = {
+			isa = PBXGroup;
+			children = (
+				4894FB4F2DBC2BBA006FB0D9 /* Views */,
+			);
+			path = Sports;
+			sourceTree = "<group>";
+		};
+		4894FB4F2DBC2BBA006FB0D9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4894FB502DBC2BC9006FB0D9 /* SportsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4894FB092DBC141B006FB0D9 /* BetMind */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4894FB182DBC141C006FB0D9 /* Build configuration list for PBXNativeTarget "BetMind" */;
+			buildPhases = (
+				4894FB062DBC141B006FB0D9 /* Sources */,
+				4894FB072DBC141B006FB0D9 /* Frameworks */,
+				4894FB082DBC141B006FB0D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BetMind;
+			productName = BetMind;
+			productReference = 4894FB0A2DBC141B006FB0D9 /* BetMind.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4894FB022DBC141B006FB0D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					4894FB092DBC141B006FB0D9 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 4894FB052DBC141B006FB0D9 /* Build configuration list for PBXProject "BetMind" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4894FB012DBC141B006FB0D9;
+			productRefGroup = 4894FB0B2DBC141B006FB0D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4894FB092DBC141B006FB0D9 /* BetMind */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4894FB082DBC141B006FB0D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4894FB152DBC141C006FB0D9 /* Preview Assets.xcassets in Resources */,
+				4894FB122DBC141C006FB0D9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4894FB062DBC141B006FB0D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4894FB332DBC16F3006FB0D9 /* OnboardingView.swift in Sources */,
+				4894FB512DBC2BC9006FB0D9 /* SportsView.swift in Sources */,
+				4894FB3D2DBC1C51006FB0D9 /* OnboardingPageView.swift in Sources */,
+				4894FB442DBC2B3C006FB0D9 /* BaccaratView.swift in Sources */,
+				4894FB0E2DBC141B006FB0D9 /* BetMindApp.swift in Sources */,
+				4894FB352DBC1881006FB0D9 /* HomeView.swift in Sources */,
+				4894FB482DBC2B6B006FB0D9 /* BlackJackView.swift in Sources */,
+				4894FB4D2DBC2B9F006FB0D9 /* RouletteView.swift in Sources */,
+				4894FB312DBC169F006FB0D9 /* MainTabView.swift in Sources */,
+				4894FB402DBC276D006FB0D9 /* GameType.swift in Sources */,
+				4894FB392DBC1958006FB0D9 /* AccountView.swift in Sources */,
+				4894FB3B2DBC1C06006FB0D9 /* OnboardingPage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4894FB162DBC141C006FB0D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4894FB172DBC141C006FB0D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4894FB192DBC141C006FB0D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BetMind/Preview Content\"";
+				DEVELOPMENT_TEAM = 28Y3AJZ4MW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.carlos.cardona.BetMind;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4894FB1A2DBC141C006FB0D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BetMind/Preview Content\"";
+				DEVELOPMENT_TEAM = 28Y3AJZ4MW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.carlos.cardona.BetMind;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4894FB052DBC141B006FB0D9 /* Build configuration list for PBXProject "BetMind" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4894FB162DBC141C006FB0D9 /* Debug */,
+				4894FB172DBC141C006FB0D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4894FB182DBC141C006FB0D9 /* Build configuration list for PBXNativeTarget "BetMind" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4894FB192DBC141C006FB0D9 /* Debug */,
+				4894FB1A2DBC141C006FB0D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4894FB022DBC141B006FB0D9 /* Project object */;
+}

@@ -1,0 +1,31 @@
+# Xcode
+DerivedData/
+*.xcworkspace
+*.xcuserstate
+
+# SwiftPM
+.build/
+
+# CocoaPods
+Pods/
+
+# Carthage
+Carthage/
+
+# Accidental
+*.DS_Store
+
+# Personal
+*.env
+
+# Archives
+*.xcarchive
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+
+# Other
+.idea/
+*.orig
