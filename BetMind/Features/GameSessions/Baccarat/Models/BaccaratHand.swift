@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum BaccaratResult: String, Identifiable, CaseIterable {
+enum BaccaratResult: String, Identifiable, CaseIterable, Codable {
     case banker = "Banker"
     case player = "Player"
     case tie = "Tie"
@@ -15,8 +15,8 @@ enum BaccaratResult: String, Identifiable, CaseIterable {
     var id: String { rawValue }
 }
 
-struct BaccaratHand: Identifiable {
-    let id = UUID()
+struct BaccaratHand: Identifiable, Codable {
+    var id = UUID()
     let result : BaccaratResult
     let timestamo: Date
 }

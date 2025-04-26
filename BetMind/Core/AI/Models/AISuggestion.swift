@@ -7,13 +7,13 @@
 
 import Foundation
 
-enum ConfidenceLevel: String {
+enum ConfidenceLevel: String, Equatable {
     case high = "High"
     case medium = "Medium"
     case low = "Low"
 }
 
-struct AISuggestion {
+struct AISuggestion: Equatable {
     let message: String
     let confidence: ConfidenceLevel
 }

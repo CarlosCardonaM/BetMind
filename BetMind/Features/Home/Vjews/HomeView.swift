@@ -47,7 +47,7 @@ struct HomeView: View {
                     } label: {
                         HStack(spacing: 4) {
                             Text(selectedGame.name)
-                                .font(.title2)
+                                .font(.title)
                             Image(systemName: "chevron.down")
                                 .font(.subheadline)
                         }

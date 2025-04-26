@@ -26,6 +26,8 @@
 		4894FB5D2DBD68F0006FB0D9 /* AIEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4894FB5C2DBD68F0006FB0D9 /* AIEngine.swift */; };
 		4894FB602DBD6A05006FB0D9 /* BaccaratAIEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4894FB5F2DBD6A05006FB0D9 /* BaccaratAIEngine.swift */; };
 		4894FB622DBD6BB7006FB0D9 /* AIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4894FB612DBD6BB7006FB0D9 /* AIManager.swift */; };
+		4894FB642DBD7109006FB0D9 /* ShoeSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4894FB632DBD7109006FB0D9 /* ShoeSession.swift */; };
+		4894FB672DBD71C4006FB0D9 /* ShoeSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4894FB662DBD71C4006FB0D9 /* ShoeSessionManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +51,8 @@
 		4894FB5C2DBD68F0006FB0D9 /* AIEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIEngine.swift; sourceTree = "<group>"; };
 		4894FB5F2DBD6A05006FB0D9 /* BaccaratAIEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaccaratAIEngine.swift; sourceTree = "<group>"; };
 		4894FB612DBD6BB7006FB0D9 /* AIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIManager.swift; sourceTree = "<group>"; };
+		4894FB632DBD7109006FB0D9 /* ShoeSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoeSession.swift; sourceTree = "<group>"; };
+		4894FB662DBD71C4006FB0D9 /* ShoeSessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoeSessionManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +114,7 @@
 		4894FB1C2DBC14D0006FB0D9 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				4894FB652DBD71AA006FB0D9 /* Persistence */,
 				4894FB552DBD67F7006FB0D9 /* AI */,
 				4894FB202DBC14EB006FB0D9 /* Helpers */,
 				4894FB1F2DBC14E6006FB0D9 /* Services */,
@@ -369,6 +374,7 @@
 			isa = PBXGroup;
 			children = (
 				4894FB532DBD5802006FB0D9 /* BaccaratHand.swift */,
+				4894FB632DBD7109006FB0D9 /* ShoeSession.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -422,6 +428,14 @@
 				4894FB5F2DBD6A05006FB0D9 /* BaccaratAIEngine.swift */,
 			);
 			path = Baccarat;
+			sourceTree = "<group>";
+		};
+		4894FB652DBD71AA006FB0D9 /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				4894FB662DBD71C4006FB0D9 /* ShoeSessionManager.swift */,
+			);
+			path = Persistence;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -495,10 +509,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				4894FB5D2DBD68F0006FB0D9 /* AIEngine.swift in Sources */,
+				4894FB642DBD7109006FB0D9 /* ShoeSession.swift in Sources */,
 				4894FB332DBC16F3006FB0D9 /* OnboardingView.swift in Sources */,
 				4894FB622DBD6BB7006FB0D9 /* AIManager.swift in Sources */,
 				4894FB542DBD5802006FB0D9 /* BaccaratHand.swift in Sources */,
 				4894FB512DBC2BC9006FB0D9 /* SportsView.swift in Sources */,
+				4894FB672DBD71C4006FB0D9 /* ShoeSessionManager.swift in Sources */,
 				4894FB5B2DBD6869006FB0D9 /* AISuggestion.swift in Sources */,
 				4894FB3D2DBC1C51006FB0D9 /* OnboardingPageView.swift in Sources */,
 				4894FB602DBD6A05006FB0D9 /* BaccaratAIEngine.swift in Sources */,
