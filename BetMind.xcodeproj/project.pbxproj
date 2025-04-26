@@ -22,6 +22,10 @@
 		4894FB4D2DBC2B9F006FB0D9 /* RouletteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4894FB4C2DBC2B9F006FB0D9 /* RouletteView.swift */; };
 		4894FB512DBC2BC9006FB0D9 /* SportsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4894FB502DBC2BC9006FB0D9 /* SportsView.swift */; };
 		4894FB542DBD5802006FB0D9 /* BaccaratHand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4894FB532DBD5802006FB0D9 /* BaccaratHand.swift */; };
+		4894FB5B2DBD6869006FB0D9 /* AISuggestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4894FB5A2DBD6869006FB0D9 /* AISuggestion.swift */; };
+		4894FB5D2DBD68F0006FB0D9 /* AIEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4894FB5C2DBD68F0006FB0D9 /* AIEngine.swift */; };
+		4894FB602DBD6A05006FB0D9 /* BaccaratAIEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4894FB5F2DBD6A05006FB0D9 /* BaccaratAIEngine.swift */; };
+		4894FB622DBD6BB7006FB0D9 /* AIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4894FB612DBD6BB7006FB0D9 /* AIManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +45,10 @@
 		4894FB4C2DBC2B9F006FB0D9 /* RouletteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouletteView.swift; sourceTree = "<group>"; };
 		4894FB502DBC2BC9006FB0D9 /* SportsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsView.swift; sourceTree = "<group>"; };
 		4894FB532DBD5802006FB0D9 /* BaccaratHand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaccaratHand.swift; sourceTree = "<group>"; };
+		4894FB5A2DBD6869006FB0D9 /* AISuggestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AISuggestion.swift; sourceTree = "<group>"; };
+		4894FB5C2DBD68F0006FB0D9 /* AIEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIEngine.swift; sourceTree = "<group>"; };
+		4894FB5F2DBD6A05006FB0D9 /* BaccaratAIEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaccaratAIEngine.swift; sourceTree = "<group>"; };
+		4894FB612DBD6BB7006FB0D9 /* AIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +110,7 @@
 		4894FB1C2DBC14D0006FB0D9 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				4894FB552DBD67F7006FB0D9 /* AI */,
 				4894FB202DBC14EB006FB0D9 /* Helpers */,
 				4894FB1F2DBC14E6006FB0D9 /* Services */,
 				4894FB1E2DBC14DE006FB0D9 /* UseCases */,
@@ -364,6 +373,57 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		4894FB552DBD67F7006FB0D9 /* AI */ = {
+			isa = PBXGroup;
+			children = (
+				4894FB592DBD680C006FB0D9 /* Engines */,
+				4894FB582DBD6806006FB0D9 /* Protocols */,
+				4894FB572DBD6802006FB0D9 /* Models */,
+				4894FB562DBD67FC006FB0D9 /* Manager */,
+			);
+			path = AI;
+			sourceTree = "<group>";
+		};
+		4894FB562DBD67FC006FB0D9 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				4894FB612DBD6BB7006FB0D9 /* AIManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		4894FB572DBD6802006FB0D9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4894FB5A2DBD6869006FB0D9 /* AISuggestion.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4894FB582DBD6806006FB0D9 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				4894FB5C2DBD68F0006FB0D9 /* AIEngine.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		4894FB592DBD680C006FB0D9 /* Engines */ = {
+			isa = PBXGroup;
+			children = (
+				4894FB5E2DBD69F5006FB0D9 /* Baccarat */,
+			);
+			path = Engines;
+			sourceTree = "<group>";
+		};
+		4894FB5E2DBD69F5006FB0D9 /* Baccarat */ = {
+			isa = PBXGroup;
+			children = (
+				4894FB5F2DBD6A05006FB0D9 /* BaccaratAIEngine.swift */,
+			);
+			path = Baccarat;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -434,10 +494,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4894FB5D2DBD68F0006FB0D9 /* AIEngine.swift in Sources */,
 				4894FB332DBC16F3006FB0D9 /* OnboardingView.swift in Sources */,
+				4894FB622DBD6BB7006FB0D9 /* AIManager.swift in Sources */,
 				4894FB542DBD5802006FB0D9 /* BaccaratHand.swift in Sources */,
 				4894FB512DBC2BC9006FB0D9 /* SportsView.swift in Sources */,
+				4894FB5B2DBD6869006FB0D9 /* AISuggestion.swift in Sources */,
 				4894FB3D2DBC1C51006FB0D9 /* OnboardingPageView.swift in Sources */,
+				4894FB602DBD6A05006FB0D9 /* BaccaratAIEngine.swift in Sources */,
 				4894FB442DBC2B3C006FB0D9 /* BaccaratView.swift in Sources */,
 				4894FB0E2DBC141B006FB0D9 /* BetMindApp.swift in Sources */,
 				4894FB352DBC1881006FB0D9 /* HomeView.swift in Sources */,

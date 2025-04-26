@@ -11,6 +11,7 @@ struct BaccaratView: View {
     
     @State private var hands: [BaccaratHand] = []
     @State private var showResetAlert: Bool = false
+    @State private var currentSuggestion: AISuggestion? = nil
     
     private var totalHands: Int {
         hands.count
@@ -36,6 +37,22 @@ struct BaccaratView: View {
             Text("Register hand")
                 .font((.largeTitle.bold()))
                 .padding(.top)
+            
+            if let suggestion = currentSuggestion {
+                VStack(spacing: 8) {
+                    Text("AI Suggest")
+                        .font(.headline)
+                    
+                    Text(suggestion.message)
+                        .font(.title3.bold())
+                        .multilineTextAlignment(.center)
+                    
+                    Text("Confidence: \(suggestion.confidence.rawValue)")
+                        .font(.caption)
+                        .foregroundColor(.gray)
+                }
+                .padding(.horizontal)
+            }
             
             Button(action: {
                 showResetAlert = true
@@ -85,21 +102,20 @@ struct BaccaratView: View {
             }
             
             ScrollView {
-                LazyVGrid(columns: Array(repeating: GridItem(.flexible(), spacing: 8), count: 6), spacing: 8) {
+                LazyVGrid(columns: Array(repeating: GridItem(.flexible(), spacing: 4), count: 10), spacing: 4) {
                     ForEach(hands) { hand in
                         ZStack {
                             Circle()
                                 .fill(backgroundColor(for: hand.result))
-                                .frame(width: 40, height: 40)
+                                .frame(width: 20, height: 20)
                             Text(initial(for: hand.result))
-                                .font(.caption.bold())
+                                .font(.system(size: 10, weight: .bold))
                                 .foregroundColor(.white)
                         }
                     }
                 }
                 .padding(.horizontal)
             }
-            .frame(maxHeight: 300)
             
             Spacer()
         }
@@ -109,6 +125,8 @@ struct BaccaratView: View {
     private func registerHand(_ result: BaccaratResult) {
         let hand = BaccaratHand(result: result, timestamo: Date())
         hands.append(hand)
+        
+        currentSuggestion = AIManager.shared.generateSuggestion(for: .baccarat, state: hands)
     }
     
     private func backgroundColor(for result: BaccaratResult) -> Color {
