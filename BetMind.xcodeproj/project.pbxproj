@@ -21,6 +21,7 @@
 		4894FB482DBC2B6B006FB0D9 /* BlackJackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4894FB472DBC2B6B006FB0D9 /* BlackJackView.swift */; };
 		4894FB4D2DBC2B9F006FB0D9 /* RouletteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4894FB4C2DBC2B9F006FB0D9 /* RouletteView.swift */; };
 		4894FB512DBC2BC9006FB0D9 /* SportsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4894FB502DBC2BC9006FB0D9 /* SportsView.swift */; };
+		4894FB542DBD5802006FB0D9 /* BaccaratHand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4894FB532DBD5802006FB0D9 /* BaccaratHand.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		4894FB472DBC2B6B006FB0D9 /* BlackJackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackJackView.swift; sourceTree = "<group>"; };
 		4894FB4C2DBC2B9F006FB0D9 /* RouletteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouletteView.swift; sourceTree = "<group>"; };
 		4894FB502DBC2BC9006FB0D9 /* SportsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsView.swift; sourceTree = "<group>"; };
+		4894FB532DBD5802006FB0D9 /* BaccaratHand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaccaratHand.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -292,6 +294,7 @@
 		4894FB412DBC2B23006FB0D9 /* Baccarat */ = {
 			isa = PBXGroup;
 			children = (
+				4894FB522DBD57F4006FB0D9 /* Models */,
 				4894FB422DBC2B2B006FB0D9 /* Views */,
 			);
 			path = Baccarat;
@@ -351,6 +354,14 @@
 				4894FB502DBC2BC9006FB0D9 /* SportsView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		4894FB522DBD57F4006FB0D9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4894FB532DBD5802006FB0D9 /* BaccaratHand.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -424,6 +435,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4894FB332DBC16F3006FB0D9 /* OnboardingView.swift in Sources */,
+				4894FB542DBD5802006FB0D9 /* BaccaratHand.swift in Sources */,
 				4894FB512DBC2BC9006FB0D9 /* SportsView.swift in Sources */,
 				4894FB3D2DBC1C51006FB0D9 /* OnboardingPageView.swift in Sources */,
 				4894FB442DBC2B3C006FB0D9 /* BaccaratView.swift in Sources */,
