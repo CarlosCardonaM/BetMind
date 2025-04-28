@@ -14,6 +14,11 @@ struct MainTabView: View {
                 .tabItem {
                     Label("Home", systemImage: "house")
                 }
+            ShoeHistoryView()
+                .tabItem {
+                    Label("History", systemImage: "clock")
+                }
+            
             AccountView()
                 .tabItem {
                     Label("Account", systemImage: "person.circle")

@@ -28,6 +28,7 @@
 		4894FB622DBD6BB7006FB0D9 /* AIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4894FB612DBD6BB7006FB0D9 /* AIManager.swift */; };
 		4894FB642DBD7109006FB0D9 /* ShoeSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4894FB632DBD7109006FB0D9 /* ShoeSession.swift */; };
 		4894FB672DBD71C4006FB0D9 /* ShoeSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4894FB662DBD71C4006FB0D9 /* ShoeSessionManager.swift */; };
+		4894FB692DBEAA50006FB0D9 /* ShoeHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4894FB682DBEAA50006FB0D9 /* ShoeHistoryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +54,7 @@
 		4894FB612DBD6BB7006FB0D9 /* AIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIManager.swift; sourceTree = "<group>"; };
 		4894FB632DBD7109006FB0D9 /* ShoeSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoeSession.swift; sourceTree = "<group>"; };
 		4894FB662DBD71C4006FB0D9 /* ShoeSessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoeSessionManager.swift; sourceTree = "<group>"; };
+		4894FB682DBEAA50006FB0D9 /* ShoeHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoeHistoryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -318,6 +320,7 @@
 			isa = PBXGroup;
 			children = (
 				4894FB432DBC2B3C006FB0D9 /* BaccaratView.swift */,
+				4894FB682DBEAA50006FB0D9 /* ShoeHistoryView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -510,6 +513,7 @@
 			files = (
 				4894FB5D2DBD68F0006FB0D9 /* AIEngine.swift in Sources */,
 				4894FB642DBD7109006FB0D9 /* ShoeSession.swift in Sources */,
+				4894FB692DBEAA50006FB0D9 /* ShoeHistoryView.swift in Sources */,
 				4894FB332DBC16F3006FB0D9 /* OnboardingView.swift in Sources */,
 				4894FB622DBD6BB7006FB0D9 /* AIManager.swift in Sources */,
 				4894FB542DBD5802006FB0D9 /* BaccaratHand.swift in Sources */,
