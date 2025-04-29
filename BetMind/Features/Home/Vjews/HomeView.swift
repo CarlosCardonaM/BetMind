@@ -42,8 +42,7 @@ struct HomeView: View {
                                 selectedGame = game
                             }) {
                                 Text(game.name)
-                            }
-                        }
+                            }                        }
                     } label: {
                         HStack(spacing: 4) {
                             Text(selectedGame.name)
@@ -68,6 +67,6 @@ struct HomeView: View {
     }
 }
 
-#Preview {
-    HomeView()
-}
+//#Preview {
+//    HomeView()
+//}
